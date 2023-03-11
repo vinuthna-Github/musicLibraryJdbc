@@ -1,0 +1,18 @@
+2023-03-09 02:35:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PLAYLIST" already exists; SQL statement:
+create table PLAYLIST(
+   songId INT PRIMARY KEY AUTO_INCREMENT,
+   songName TEXT,
+   lyricist TEXT,
+   singer TEXT,
+   usicDirector TEXT
+) [42101-214]
+2023-03-09 02:35:57 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PLAYLIST" already exists; SQL statement:
+create table PLAYLIST(
+   songId INT PRIMARY KEY AUTO_INCREMENT,
+   songName TEXT,
+   lyricist TEXT,
+   singer TEXT,
+   musicDirector TEXT
+) [42101-214]
